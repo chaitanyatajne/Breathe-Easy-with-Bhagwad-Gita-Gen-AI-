@@ -1,0 +1,4 @@
+langchain-community
+streamlit
+langchain
+python-dotenv
