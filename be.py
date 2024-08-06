@@ -7,7 +7,7 @@ import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-api_key="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"
+api_key=st.secrets["api_key"]
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 
 prompt=ChatPromptTemplate.from_messages(
