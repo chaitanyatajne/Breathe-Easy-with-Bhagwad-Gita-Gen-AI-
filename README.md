@@ -1,3 +1,5 @@
+# Breathe Easy with Bhagwat Gita and Gen AI
+
 **Breathe Easy: Your Mindful Companion**
 
 **Description:**
