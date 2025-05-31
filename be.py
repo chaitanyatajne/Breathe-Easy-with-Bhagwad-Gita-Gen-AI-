@@ -31,7 +31,7 @@ st.write("Enter you problem to get a solution with mindfullness and from Bhagwad
 input_text=st.text_input("Enter Question")
 
 
-llm=ChatGroq(model="Gemma2-9b-It",api_key=api_key)
+llm=ChatGroq(model="deepseek-r1-distill-llama-70b",api_key=api_key)
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 
